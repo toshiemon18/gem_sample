@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pry-rails', group: [:development, :test]
 gem 'pry-byebug', group: [:development, :test]
 
+gem 'hirb', group: [:development, :test]
+gem 'hirb-unicode', group: [:development, :test]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
