@@ -26,8 +26,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pry-rails', group: [:development, :test]
 gem 'pry-byebug', group: [:development, :test]
 
+gem 'better_errors', group: [:development, :test]
+gem 'binding_of_caller', group: [:development, :test]
+
+gem 'spring', group: [:development, :test]
+
 gem 'hirb', group: [:development, :test]
 gem 'hirb-unicode', group: [:development, :test]
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -48,6 +54,5 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
 end
 
